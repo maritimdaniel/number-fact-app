@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(66, 69, 78);
+    color: white;
+}
+
+p{
+    font-size: 0.85rem;
+}
+
+.container{
+    margin: 2rem auto 0;
+    max-width: 40vw;
+    min-height: 10vh;
+    background:rgb(52, 111, 240);
+    padding: 1rem;
+    border-radius: 0.2rem;
+    position: relative;
+
+}
+
+label,input{
+    display: inline-block;
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 0.8rem;
+}
+
+input{
+    padding: 0.5em;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+}
+
+.output{
+    padding: 0.7em;
+    display: none;
+}
+
+.output h4{
+    margin-bottom: 0.3em;
+}
